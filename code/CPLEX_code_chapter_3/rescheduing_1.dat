@@ -1,0 +1,38 @@
+/*********************************************
+ * OPL 12.9.0.0 Data
+ * Author: zihao
+ * Creation Date: 2020年6月8日 at 下午4:40:12
+ *********************************************/
+NbPouring = 3;
+NbFurnace = 6;
+NbDeviceClass = 3;
+NbDeviceNumber = 3;
+MaxOperatingTime = [38 30 55];
+MinOperatingTime = [32 15 40];
+TransportTime = [
+					[
+						[10 22] [10 22] [10 22] [10 22] [13 25] [13 25]
+					]
+					[
+						[15 25] [15 25] [15 25] [15 25] [15 25] [15 25]
+					]
+					[
+						[13 22] [13 22] [13 22] [15 25] [15 25] [15 25]
+					]
+
+				 ];
+
+      
+      
+      
+/*int NbPouring = ...;
+int NbFurnace = ...;
+int NbDeviceClass = ...;
+int NbDeviceNumber = ...;
+range Pouring = 1..NbPouring;
+range Furnace = 1..NbFurnace;
+range DeviceClass = 1..NbDeviceClass;
+range DeviceNumber = 1..NbDeviceNumber;
+int TransportTime[Pouring][Furnace][DeviceClass] = ...;
+int MaxOperatingTime[DeviceClass] = ...;
+int MinOperatingTime[DeviceClass] = ...;*/
